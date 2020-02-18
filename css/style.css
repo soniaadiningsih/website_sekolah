@@ -1,0 +1,100 @@
+h2{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #00501D;
+}
+/* header */
+.header{
+    font-family: "Poppins";
+}
+.header li{
+    margin-left: 10px;
+}
+.header .btn-light{
+    padding: 5px 10px;
+}
+.header .header-item h1{
+    color: #00501D;
+    font-style: bold;
+    font-weight: 700;
+}
+.header .header-item h1 span{
+    color: lightgreen;
+}
+.header .header-item p{
+    font-size: 20px;
+}
+
+/* tentang */
+.tentang{
+    font-family: "Poppins";
+}
+.tentang .tentang-item h2{
+    margin-bottom: 0;
+}
+.tentang .tentang-item h3{
+    font-weight: 300;
+}
+.tentang .tentang-item p{
+    font-size: 20px;
+}
+.tentang .tentang-item a{
+    color: lightgreen;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* fasilitas */
+.fasilitas{
+    font-family: "Poppins";
+}
+
+/* blog */
+.blog{
+    font-family: "Poppins";
+}
+.blog h5{
+    color: lightgreen;
+}
+.blog a{
+    color: lightgreen;
+    font-weight: 600;
+    font-size: 16px;
+}
+.blog .card-time{
+    color: lightgreen;
+    font-size: 14px;
+}
+
+/* galeri */
+.galeri{
+    font-family: "Poppins";
+}
+
+/* footer */
+.footer{
+    font-family: "Poppins";
+}   
+.footer img{
+    height: 100px;
+    width: 500px;
+}
+.footer h4{
+    color: lightgreen;
+    font-weight: 600;
+    font-size: 20px;
+}
+.footer p{
+    color: gray;
+}
+.footer .copyright{
+    color: black;
+    text-align: center;
+}
+.footer .copyright a{
+    color: black;
+    font-weight: 600;
+}

@@ -1,0 +1,87 @@
+@media only screen and (max-width: 768px) {
+    /* section 1 */
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    header .navbar-nav{
+        bottom: 0;
+        text-align: center;
+    }
+    
+    header .navbar-nav .linkdewe{
+        text-align: center; 
+        margin-left: 80px;
+    }
+    header .container .col-md-5{
+        margin-top: -150px;
+    }
+    .section-1 .row .col-md-6 .pray{
+        margin-top: -100px;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+        margin-top: -110px;
+    }
+    .purchase .carousel .btn{
+        margin-bottom: 20px;
+    }
+
+    /* section 2 */
+    .section-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+    .numbers .rect h1{
+        font-size: 2rem;
+    }
+    .purchase .carousel-control{
+        color: black;
+    }
+
+    /* section 3 */
+    .section-3{
+        height: inherit;
+        padding: 10vmin !important;
+    }
+    .section-3 .row h1{
+        padding: 6vmin 4vmin;
+    }
+    .section-3 .platform .col-md-6 {
+        text-align: center !important;
+      }
+    .section-3 .desktop i{
+        font-size: 8vmin;
+    }
+    .section-4 .carousel-item{
+        padding-left: 0.6rem;
+    }
+    footer .row .col-md-2{
+        margin-top: 8vmin;
+    }
+
+    /* section-4 */
+    .section-4 .row .col-md-4{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .section-4 .card{
+        width: 18em;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .section-4 .card{
+        width: 18rem;
+    }
+    .section-4 .carousel-inner{
+        margin-left: -14vmin;
+    }
+}
