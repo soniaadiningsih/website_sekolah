@@ -16,6 +16,9 @@ h2{
 .header .btn-light{
     padding: 5px 10px;
 }
+.header .header-item{
+    padding-top: 60px;
+}
 .header .header-item h1{
     color: #00501D;
     font-style: bold;
@@ -31,6 +34,8 @@ h2{
 /* tentang */
 .tentang{
     font-family: "Poppins";
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 .tentang .tentang-item h2{
     margin-bottom: 0;
@@ -50,11 +55,26 @@ h2{
 /* fasilitas */
 .fasilitas{
     font-family: "Poppins";
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+.fasilitas .home{
+    border-radius: 10px;
+    text-align: center;
+}
+.fasilitas .home .icon{
+    color: lightgreen;
+    margin-bottom: 20px;
+}
+.fasilitas .home h3{
+    font-size: 25px;
+}
+
 
 /* blog */
 .blog{
     font-family: "Poppins";
+    padding-top: 60px;
 }
 .blog h5{
     color: lightgreen;
@@ -72,6 +92,64 @@ h2{
 /* galeri */
 .galeri{
     font-family: "Poppins";
+    padding-top: 60px;
+}
+.content {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.content .content-overlay {
+    background: rgba(125, 228, 111, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+} 
+.content:hover .content-overlay{
+    opacity: 1;
+}
+.content-image{
+    width: 100%;
+}
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.content-details p{
+    color: white;
+}
+.content-details h5{
+    color: white;
+}
+.content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+.fadeIn-bottom{
+    top: 80%;
 }
 
 /* footer */
