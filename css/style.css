@@ -14,10 +14,11 @@ h2{
     margin-left: 10px;
 }
 .header .btn-light{
-    padding: 5px 10px;
+    padding: 7px 16px;
+    background: rgba(255, 255, 255, 0.31);
 }
 .header .header-item{
-    padding-top: 60px;
+    padding-top: 246px;
 }
 .header .header-item h1{
     color: #00501D;
@@ -34,7 +35,7 @@ h2{
 /* tentang */
 .tentang{
     font-family: "Poppins";
-    padding-top: 60px;
+    padding-top: 360px;
     padding-bottom: 40px;
 }
 .tentang .tentang-item h2{
@@ -55,6 +56,7 @@ h2{
 /* fasilitas */
 .fasilitas{
     font-family: "Poppins";
+    margin-top: 247px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -62,9 +64,7 @@ h2{
     border-radius: 10px;
     text-align: center;
 }
-.fasilitas .home .icon{
-    color: lightgreen;
-    margin-bottom: 20px;
+.fasilitas .icon{
 }
 .fasilitas .home h3{
     font-size: 25px;
@@ -84,15 +84,21 @@ h2{
     font-weight: 600;
     font-size: 16px;
 }
+.blog .card{
+    border-radius: 10px;
+}
 .blog .card-time{
     color: lightgreen;
     font-size: 14px;
+}
+.blog .card-img-top{
+    height: 240px;
 }
 
 /* galeri */
 .galeri{
     font-family: "Poppins";
-    padding-top: 60px;
+    margin-top: 105px;
 }
 .content {
     position: relative;
@@ -102,7 +108,7 @@ h2{
     margin-bottom: 40px;
 }
 .content .content-overlay {
-    background: rgba(125, 228, 111, 0.7);
+    background: linear-gradient(119.92deg, #60D179 -10.45%, rgba(0, 0, 0, 0.188) 167.5%);
     position: absolute;
     height: 99%;
     width: 100%;
@@ -171,8 +177,10 @@ h2{
 .footer .copyright{
     color: black;
     text-align: center;
+    background: linear-gradient(180deg, #60D179 0%, rgba(0, 0, 0, 0.188) 401.42%);
+    padding: 15px 0;
 }
 .footer .copyright a{
-    color: black;
+    color: yellow;
     font-weight: 600;
 }
