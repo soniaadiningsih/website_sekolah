@@ -1,24 +1,42 @@
+
 h2{
     font-family: "Poppins";
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 54px;
+    line-height: 81px;
     color: #00501D;
 }
 /* header */
 .header{
     font-family: "Poppins";
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    top: 0;
+}
+.header p .title{
+    color: green;
+    font-size: 20px;
+    line-height: 30px;
 }
 .header li{
-    margin-left: 10px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF !important;
 }
 .header .btn-light{
     padding: 7px 16px;
     background: rgba(255, 255, 255, 0.31);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 0;
 }
 .header .header-item{
-    padding-top: 246px;
+    padding-top: 200px;
 }
 .header .header-item h1{
     color: #00501D;
@@ -26,7 +44,7 @@ h2{
     font-weight: 700;
 }
 .header .header-item h1 span{
-    color: lightgreen;
+    color: #60D179;
 }
 .header .header-item p{
     font-size: 20px;
@@ -35,8 +53,7 @@ h2{
 /* tentang */
 .tentang{
     font-family: "Poppins";
-    padding-top: 360px;
-    padding-bottom: 40px;
+    margin-top: 200px;
 }
 .tentang .tentang-item h2{
     margin-bottom: 0;
@@ -48,7 +65,7 @@ h2{
     font-size: 20px;
 }
 .tentang .tentang-item a{
-    color: lightgreen;
+    color: #60D179;
     font-weight: 500;
     font-size: 18px;
 }
@@ -56,18 +73,24 @@ h2{
 /* fasilitas */
 .fasilitas{
     font-family: "Poppins";
-    margin-top: 247px;
+    margin-top: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.fasilitas .home{
-    border-radius: 10px;
+.fasilitas .desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #333333;
+}
+.fasilitas .card{
+    height: 306px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+}
+.fasilitas .card .card-body img{
+    justify-content: center;
     text-align: center;
-}
-.fasilitas .icon{
-}
-.fasilitas .home h3{
-    font-size: 25px;
 }
 
 
@@ -76,29 +99,71 @@ h2{
     font-family: "Poppins";
     padding-top: 60px;
 }
+.blog .desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #333333;
+}
 .blog h5{
-    color: lightgreen;
+    margin-top: 25px;
+    color: #60D179;
+}
+
+.blog .card-text{
+    margin-top: 14px;
+    margin-bottom: 31px;
 }
 .blog a{
-    color: lightgreen;
+    color: #60D179;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 100px !important;
+}
+.blog a:hover{
+    color: green;
+    border-bottom: none;
 }
 .blog .card{
     border-radius: 10px;
+    width: 270px;
+    height: 512px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
 }
 .blog .card-time{
-    color: lightgreen;
-    font-size: 14px;
+    color: #60D179;
+    font-size: 12px;
+    flex-direction: row-reverse;
+    display: flex;
+    margin-top: -20px;
 }
 .blog .card-img-top{
     height: 240px;
+    position: relative;
 }
+.blog .card-img-top::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(72, 164, 127, 0.49);
+    content: '';
+}
+
 
 /* galeri */
 .galeri{
     font-family: "Poppins";
     margin-top: 105px;
+}
+.galeri .desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #333333;
 }
 .content {
     position: relative;
@@ -162,25 +227,57 @@ h2{
 .footer{
     font-family: "Poppins";
 }   
+.footer p .title{
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 43px;
+    color: #00501D;
+}
+.footer p{
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 28px;
+    color: #333333;
+    }
 .footer img{
     height: 100px;
     width: 500px;
 }
-.footer h4{
-    color: lightgreen;
-    font-weight: 600;
-    font-size: 20px;
+.footer .contact h4{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2FA47F;
 }
-.footer p{
-    color: gray;
+.footer .contact p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #333333;
 }
 .footer .copyright{
-    color: black;
     text-align: center;
     background: linear-gradient(180deg, #60D179 0%, rgba(0, 0, 0, 0.188) 401.42%);
     padding: 15px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
 }
 .footer .copyright a{
     color: yellow;
-    font-weight: 600;
+}
+
+@media (min-width: 768px) { 
+    .blog .card{
+        justify-content: center;
+    }
+}
+
+@media (min-width: 578px){
+    .blog .card{
+        justify-content: center;
+    }
 }
