@@ -17,19 +17,24 @@ h2{
     display: flex;
     flex-direction: row-reverse !important;
 }
+.header .navbar-inverse{
+    color: #FFFFFF;
+}
 .header p .title{
     color: green;
     font-size: 20px;
     line-height: 30px;
+}
+.header ul{
+    color: #FFFFFF;
 }
 .header li{
     margin-left: 10px;
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
-    color: #FFFFFF !important;
 }
-.header .nav-link{
+.header .navbar-collapse .navbar-nav {
     color: #FFFFFF;
 }
 .header .btn-light{
@@ -39,10 +44,12 @@ h2{
     font-size: 14px;
     line-height: 21px;
     margin-left: 0;
+    color: #FFFFFF;
 }
 .header .header-item{
     padding-top: 200px;
 }
+
 .header .header-item h1{
     color: #00501D;
     font-style: bold;
@@ -58,16 +65,20 @@ h2{
 /* tentang */
 .tentang{
     font-family: "Poppins";
-    margin-top: 150px;
-}
-.tentang .tentang-item h2{
-    margin-bottom: 0;
+    margin-top: 152px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    top: 0;
 }
 .tentang .tentang-item h3{
     font-weight: 300;
 }
 .tentang .tentang-item p{
     font-size: 20px;
+    width: 603px;
+    height: 161px;
+    margin-top: 24px;
 }
 .tentang .tentang-item a{
     color: #60D179;
@@ -78,7 +89,7 @@ h2{
 /* fasilitas */
 .fasilitas{
     font-family: "Poppins";
-    margin-top: 150px;
+    margin-top: 43px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -278,6 +289,12 @@ h2{
     .blog .card{
         justify-content: center;
     }
+    .tentang .tentang-item p{
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        margin-top: 24px;
+    }
 }
 
 @media (min-width: 578px){
@@ -286,5 +303,24 @@ h2{
         width: 100%;
         height: 512px;
         box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+    }
+
+    .navbar-collapse .nav-link{
+        color: black;
+    }
+
+    .tentang .tentang-item p{
+        font-size: 20px;
+        width: 0;
+        height: 100%;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 264px){
+    .tentang .tentang-item p{
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
     }
 }
