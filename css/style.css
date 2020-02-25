@@ -17,9 +17,6 @@ h2{
     display: flex;
     flex-direction: row-reverse !important;
 }
-.header .navbar-inverse{
-    color: #FFFFFF;
-}
 .header p .title{
     color: green;
     font-size: 20px;
