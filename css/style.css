@@ -31,8 +31,14 @@ h2{
     font-size: 14px;
     line-height: 21px;
 }
+.header .navbar-nav{
+    color: white;
+}
 .header .navbar-collapse .navbar-nav {
     color: #FFFFFF;
+}
+.header .navbar a{
+    color: white !important;
 }
 .header .btn-light{
     padding: 7px 16px;
@@ -140,7 +146,6 @@ h2{
 }
 .blog .card{
     border-radius: 10px;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           height: 512px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
 }
 .blog .card-time{
@@ -312,6 +317,7 @@ h2{
         height: 100%;
         margin-top: 0;
     }
+    
 }
 
 @media (min-width: 264px){
