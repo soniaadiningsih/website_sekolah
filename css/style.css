@@ -22,8 +22,11 @@ h2{
     font-size: 20px;
     line-height: 30px;
 }
+.header .navbar a{
+    color: black !important;
+}
 .header ul{
-    color: #FFFFFF;
+    color: black;
 }
 .header li{
     margin-left: 10px;
@@ -32,7 +35,7 @@ h2{
     line-height: 21px;
 }
 .header .navbar-nav{
-    color: white;
+    color: black;
 }
 .header .navbar-collapse .navbar-nav {
     color: #FFFFFF;
@@ -158,15 +161,6 @@ h2{
 .blog .card-img-top{
     height: 240px;
     position: relative;
-}
-.blog .card-img-top::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(72, 164, 127, 0.49);
-    content: '';
 }
 
 
@@ -296,6 +290,9 @@ h2{
         width: 100%;
         height: 100%;
         margin-top: 24px;
+    }
+    .header .navbar a{
+        color: white !important;
     }
 }
 
